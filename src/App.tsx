@@ -337,9 +337,11 @@ export const App: React.FC = () => {
           {/* Brand Logo & Title */}
           <div className="flex items-center justify-between w-full md:w-auto">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-[#F4B942] to-[#E07A1F] border-2 border-[#FDF9F1] shadow-md flex items-center justify-center text-2xl shrink-0">
-                🦚
-              </div>
+              <img
+                src={`${import.meta.env.BASE_URL}favicon.svg`}
+                alt="RagaBox Veena Crest"
+                className="w-12 h-12 rounded-2xl shadow-md shrink-0"
+              />
               <div>
                 <div className="flex items-center gap-2">
                   <h1 className="font-display font-bold text-2xl sm:text-3xl tracking-tight text-white">
