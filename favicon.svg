@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="128" y2="128" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D6E6E" />
+      <stop offset="100%" stop-color="#063838" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="20" y1="16" x2="108" y2="112" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFE082" />
+      <stop offset="50%" stop-color="#F4B942" />
+      <stop offset="100%" stop-color="#E07A1F" />
+    </linearGradient>
+    <linearGradient id="lotusGrad" x1="36" y1="72" x2="92" y2="114" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FF9E44" />
+      <stop offset="100%" stop-color="#C84B28" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Rounded Medallion with Golden Temple Border -->
+  <rect x="6" y="6" width="116" height="116" rx="28" fill="url(#bgGrad)" stroke="url(#goldGrad)" stroke-width="6" />
+  <rect x="13" y="13" width="102" height="102" rx="22" stroke="#D49B27" stroke-opacity="0.35" stroke-width="2" stroke-dasharray="4 4" />
+
+  <!-- Subtle Peacock Feather Halo -->
+  <circle cx="52" cy="76" r="30" fill="#138A8A" fill-opacity="0.35" />
+
+  <!-- Lotus Petals Base -->
+  <path d="M52 106 C36 106 25 95 28 83 C36 86 44 92 52 106 Z" fill="url(#lotusGrad)" opacity="0.9" />
+  <path d="M52 106 C68 106 79 95 76 83 C68 86 60 92 52 106 Z" fill="url(#lotusGrad)" opacity="0.9" />
+
+  <!-- Tambura / Veena Neck (Dandi) -->
+  <path d="M56 70 L95 23 L105 33 L66 80 Z" fill="url(#goldGrad)" stroke="#FDF9F1" stroke-width="2" stroke-linejoin="round" />
+
+  <!-- Tuning Pegs (Biradai) -->
+  <circle cx="91" cy="20" r="4" fill="#F4B942" stroke="#063838" stroke-width="1.5" />
+  <circle cx="108" cy="37" r="4" fill="#F4B942" stroke="#063838" stroke-width="1.5" />
+  <circle cx="104" cy="24" r="5" fill="#E07A1F" stroke="#FDF9F1" stroke-width="2" />
+
+  <!-- Tambura / Veena Resonator Gourd (Kudam) -->
+  <circle cx="48" cy="80" r="24" fill="url(#goldGrad)" stroke="#FDF9F1" stroke-width="3" />
+  <circle cx="48" cy="80" r="16" fill="#B84A18" stroke="#FFE082" stroke-width="2" />
+  <circle cx="48" cy="80" r="7" fill="#063838" stroke="#F4B942" stroke-width="2" />
+
+  <!-- Golden Strings -->
+  <line x1="44" y1="84" x2="96" y2="26" stroke="#FDF9F1" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="48" y1="87" x2="100" y2="30" stroke="#FFE082" stroke-width="1.5" stroke-linecap="round" />
+
+  <!-- Musical Swara Note / Sparkle -->
+  <circle cx="32" cy="36" r="5" fill="#FFE082" />
+  <path d="M37 36 V20 L49 23 V29 L37 26" fill="#FFE082" />
+  <path d="M37 36 V20" stroke="#FFE082" stroke-width="3" stroke-linecap="round" />
+</svg>
