@@ -1,13 +1,15 @@
 # Dependencies
-node_modules/
+/node_modules/
 
 # Build output
-dist/
-dist-ssr/
+/dist/
+/dist-ssr/
 *.tsbuildinfo
 
-# Local raw source folder (already synced into public/music/)
-Music/
+# Local raw source folder at repo root (already synced into public/music/)
+/Music/
+!/public/music/
+!/public/music/**
 
 # Logs & OS files
 *.log
